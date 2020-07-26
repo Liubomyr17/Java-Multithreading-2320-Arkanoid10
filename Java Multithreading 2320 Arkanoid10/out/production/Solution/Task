@@ -1,0 +1,23 @@
+2413 Arkanoid 9
+
+Now let's get into the Canvas class.
+It will contain a matrix (a two-dimensional array), where we will "draw".
+The matrix has a width and a height.
+And we will not store numbers (int) in it, but characters (char).
+It is necessary:
+a) Add two private fields width and height to the class.
+b) Add the private field matrix (char [] []) to the class.
+c) Add a constructor with two parameters of type int (width and height), the matrix field should be initialized with an empty array of dimension [height + 2] [width + 2].
+d) Add getters and setters for all private fields of the class.
+
+Requirements:
+1. A private field width of type int must be created in the Canvas class.
+2. In the Canvas class, a private height field of type int must be created.
+3. In the Canvas class, a private matrix field of type char [] must be created.
+4. In the Canvas class, a public getter must be created for the width field.
+5. In the Canvas class, a public getter must be created for the height field.
+6. In the Canvas class, a public getter for the matrix field must be created.
+7. In the Canvas class, a public setter must be created for the width field.
+8. In the Canvas class, a public setter must be created for the height field.
+9. In the Canvas class, a public setter must be created for the matrix field.
+10. In the Canvas class, a valid public constructor with two parameters of type int (width and height) must be created.
